@@ -16,7 +16,7 @@ public class Review01 {
     }
 
 //int型の商品価格を受け取り、消費税額を戻すtaxメソッド
-    public static double tax(int withoutTax) {
+    public static double tax(double withoutTax) {
         // double型変数taxAmountへ消費税額を代入
         double taxAmount = withoutTax * 0.1;
         return taxAmount;
